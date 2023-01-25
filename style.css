@@ -1,0 +1,58 @@
+.container {
+    border: solid 5px black;
+    display: inline-block;
+    width: 800px;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+.details {
+    display: block;
+    margin: 50px;
+}
+
+img{
+    margin: 50px;
+    border-radius: 50%;
+}
+
+.name {
+    position: absolute;
+    left: 450px;
+    top: 150px;
+    font-family: sans-serif;
+}
+
+.date {
+    position: absolute;
+    left: 550px;
+    top: 180px;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+.footer {
+    position: absolute;
+    left: 400px;
+    top: 765px;
+}
+
+h3 {
+    font-family: sans-serif;
+}
+
+.bio {
+    position: relative;
+    left: -42px;
+}
+
+.list {
+    position: relative;
+    left: -27px;
+}

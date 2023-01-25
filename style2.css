@@ -1,0 +1,42 @@
+.container{
+    border: 2px;
+    
+}
+.box{
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    float: left;
+}
+.box-1{
+    z-index: 1;
+    top: 10px;
+    position: relative;
+    color: blueviolet;
+    background-color: brown;
+    overflow: scroll;
+}
+.box-2{
+    z-index: 1;
+    position: relative;
+    background-color: aquamarine;
+}
+@media only screen and (max-width:768px )  {
+    .box-1{
+        display: grid;
+        clear: left;
+    }
+}
+@media only screen and (max-width:360px )  {
+    .box-1{
+        display: none;
+       
+    }
+}
+@media only screen and (max-width:1000px )  {
+    .box-1{
+        display: grid;
+        clear: left;
+    }
+}
